@@ -1,0 +1,65 @@
+.playerCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restCards {
+  font-size: 0.6rem;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  align-self: center;
+}
+
+.btnsCard {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnsCard button {
+  font-size: 0.7rem;
+  padding: 8px 0px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  color: white;
+}
+
+.btnSelect {
+  background-color: #036B52;
+  width: 120px;
+}
+
+.btnNext {
+  background-color: #055CFA;
+  width: 100px;
+}
+
+.btnNext:disabled, .btnSelect:disabled {
+  background-color: gray;
+  color: rgb(45, 45, 45);
+}
+
+.btnSelect:active, .btnNext:active {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 400px) { 
+  .btnSelect {
+    width: 80px;
+    font-size: 10px;
+  }
+
+  .btnNext {
+    width: 70px;
+    font-size: 10px;
+    padding: 2px 0;
+  }
+}

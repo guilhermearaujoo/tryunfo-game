@@ -1,0 +1,23 @@
+.BtnAtrr {
+  padding: 5px 15px;
+  border-radius: 6px;
+  background-color: white;
+  color: #052727;
+  border: none;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.BtnAtrr:disabled {
+  opacity: 60%;
+}
+
+.BtnAtrr:active {
+  transform: scale(95%);
+}
+
+@media screen and (min-width: 800px) { 
+  .BtnAtrr {
+    padding: 7px 40px;
+  }
+}

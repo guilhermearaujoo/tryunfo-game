@@ -1,0 +1,70 @@
+.btnGame {
+  padding: 10px 40px;
+  background-color: #2FC18C;
+  border: none;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: white;
+  font-size: 1.3rem;
+  width: 200px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.btnGame:active {
+  transform: scale(95%);
+}
+
+.btnGame:disabled {
+  opacity: 40%;
+}
+
+.Game {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  height: 82vh;
+}
+
+.score {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.score p {
+  background-color: #2FC18C;
+  padding: 5px 20px;
+  border-radius: 6px;
+  color: black;
+  font-weight: 700;
+}
+
+.divAttr {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gMess {
+  text-align: center;
+  color: white;
+  margin: 10px 0;
+}
+
+.cardsDiv {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  grid-template-columns: 1fr 1fr; 
+  margin-bottom: 30px; 
+}

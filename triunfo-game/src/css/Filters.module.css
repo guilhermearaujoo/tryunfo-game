@@ -1,0 +1,69 @@
+.filters {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto 106px 106px auto;
+  gap: 10px;
+  width: 90vw;
+  background-color: #036B52;
+  height: 50px;
+  align-items: center;
+  color: white;
+}
+
+.filters p {
+  padding-left: 7px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.filters span {
+  font-size: 0.7rem;
+}
+
+.filters input, .filters select {
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: transparent;
+  color: white;
+  height: 25px;
+  padding-left: 5px;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.input option {
+  color: black;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-right: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  .filters {
+    grid-template-columns: auto 250px 250px auto;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 90vw;
+  }
+
+  .filters p, .filters span {
+    padding-left: 7px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .filters {
+    grid-template-columns: auto auto;
+    padding: 10px;
+    height: fit-content;
+    column-gap: 30px;
+  }
+}

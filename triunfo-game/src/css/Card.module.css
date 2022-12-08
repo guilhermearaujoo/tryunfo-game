@@ -1,0 +1,131 @@
+.Card {
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 9.73277px;
+  box-shadow: 0px 3.89311px 18.4923px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 320px;
+  justify-content: center;
+  margin: 10px 15px 0 0;
+  width: 200px;
+}
+
+.conteudo {
+  background-color: #036B52;
+  border-radius: 9.73277px;
+  height: 93%;
+  position: relative;
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.nome {
+  align-items: center;
+  background-color: #052727;
+  border-top-left-radius: 9.73277px;
+  border-top-right-radius: 9.73277px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  width: 90%;
+  font-size: 0.7em;
+  margin-top: 7px;
+}
+
+.jogador {
+  width: 90%;
+}
+
+.jogador img {
+  width: 100%;
+  max-height: 178px;
+}
+
+.desc {
+  position: absolute;
+  bottom: 72px;
+  width: 100%;
+  height: 40px;
+  background-color: #036B52;
+  color: rgba(0, 0, 0, 0.25);
+  transform: rotate(-5deg);
+  color: white;
+  padding: 8px 10px 8px 20px;
+  font-size: 0.6rem;
+  word-wrap: break-word;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.atributos {
+  position: absolute;
+  bottom: 10px;
+  background-color: white;
+  width: 90%;
+  height: 78px;
+  border-radius: 9.73277px;
+  z-index: 1;
+}
+
+.atributos span {
+  background-color: #052727;
+  width: 20px;
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+  height: 15px;
+  color: white;
+  padding-left: 3px;
+  padding-top: 2px;
+  padding-right: 3px;
+  font-size: 0.6rem;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.attr1, .attr2, .attr3 {
+  margin-left: 10px;
+  font-size: 0.7rem;
+  position: absolute;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  background-color: rgb(219, 219, 219);
+  border-radius: 9px;
+  padding-left: 7px;
+}
+
+.attr1 {
+  bottom: 37px;
+}
+
+.attr2 {
+  bottom: 19px;
+}
+.attr3 {
+  bottom: 3px
+}
+
+.trunfo span {
+  position: absolute;
+  background-image: url('../imgs/logo-selecao.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 70px;
+  z-index: 3;
+  bottom: 120px;
+  right: 10px;
+  color: transparent;
+}
+
+@media screen and (max-width: 500px) { 
+  .Card {
+    height: 280px;
+    width: 160px;
+  }
+}

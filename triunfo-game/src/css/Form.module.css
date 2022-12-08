@@ -1,0 +1,176 @@
+:root {
+  --gray: #3D495C;
+  --green: #00B958;
+  --darkGreen: #052727;
+}
+
+.Form {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin-left: 10px;
+  height: 100%;
+}
+
+.Form h2 {
+  color: var(--green);
+  text-align: center;
+}
+
+.MyForm {
+  align-items: flex-start;
+  display: flex;
+  font-size: clamp(10px, 13px, 20px);
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin: 7px 0;
+  width: 90%;
+}
+
+input, textarea, select, option {
+  font-size: 0.8em;
+  resize: none;
+}
+
+.name, .description {
+  align-items: flex-end;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: auto auto;
+  gap: 5px;
+  font-weight: 700;
+  color: var(--gray);
+  width: 100%;
+}
+
+.name input, .description textarea {
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  grid-column-start: 0;
+  grid-column-end: 2;
+  padding: 5px 0 5px 5px;
+}
+
+input:focus-visible, textarea:focus-visible {
+  border-color: black;
+  outline: none;
+}
+
+.attr1, .attr2, .attr3, .img {
+  align-items: center;
+  color: var(--gray);
+  display: grid;
+  font-weight: 700;
+  grid-template-columns: 25% 65% 10%;
+  grid-template-rows: auto auto;
+  gap: 3px;
+  width: 100%;
+}
+
+.attr1 input, .attr2 input, .attr3 input, .img input {
+  height: 25px;
+  padding-left: 2px;
+}
+
+.divPoints {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  width: 100%;
+  gap: 6px;
+}
+
+.points {
+  display: flex;
+  font-weight: 700;
+  justify-content: right;
+  width: 100%;
+  color: var(--gray);
+}
+
+.select {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  gap: 5px;
+  font-weight: 700;
+  color: var(--gray);
+}
+
+.select select {
+  border: none;
+  border-bottom: 1px solid var(--darkGreen);
+  padding: 7px 5px;
+  background-color: white;
+  font-size: 1em;
+}
+
+.select select:active {
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid var(--darkGreen);
+}
+
+.select option {
+  font-size: 0.8rem;
+}
+
+.last {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
+  font-size: 0.8rem;
+  gap: 20px;
+}
+
+.last button {
+  background-color: var(--green);
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+.last button:active {
+  transform: scale(0.95);
+}
+
+.trunfo {
+  display: flex;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.trunfo input:checked {
+  background-color: var(--darkGreen);
+}
+
+@media screen and (min-width: 800px) {
+  .last {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .trunfo {
+    font-size: 15px;
+  }
+
+  .last button {
+    width: 150px;
+    font-size: 15px;
+  }
+
+  .MyForm {
+    font-size: 15px;
+  }
+
+  input, textarea, select, option {
+    font-size: 14px;
+  }
+
+  .attr1 {
+    margin-top: 15px;
+  }
+}
