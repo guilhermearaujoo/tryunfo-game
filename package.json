@@ -1,6 +1,6 @@
 {
-  "homepage": "http://guilhermearaujoo.github.io/tryunfo-game/triunfo-game",
-  "name": "triunfo-game",
+  "homepage": "http://guilhermearaujoo.github.io/tryunfo-game",
+  "name": "tryunfo-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
