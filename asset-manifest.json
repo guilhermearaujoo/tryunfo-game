@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tryunfo-game/triunfo-game/static/css/main.53e89612.css",
-    "main.js": "/tryunfo-game/triunfo-game/static/js/main.3c3f4337.js",
-    "static/media/pombo.png": "/tryunfo-game/triunfo-game/static/media/pombo.7d02898d4c4a70901354.png",
-    "static/media/paqueta.png": "/tryunfo-game/triunfo-game/static/media/paqueta.c78330c993f07c188119.png",
-    "static/media/vinicius.png": "/tryunfo-game/triunfo-game/static/media/vinicius.cc72da37b9313656a452.png",
-    "static/media/neymar.png": "/tryunfo-game/triunfo-game/static/media/neymar.49b40a90876ba91b5c90.png",
-    "static/media/logo-selecao.png": "/tryunfo-game/triunfo-game/static/media/logo-selecao.45da747c9d8440674776.png",
-    "static/media/casemiro.png": "/tryunfo-game/triunfo-game/static/media/casemiro.369aa04a1705addea96a.png",
-    "static/media/antony.png": "/tryunfo-game/triunfo-game/static/media/antony.02200834af3270fbdcb8.png",
-    "static/media/alisson.png": "/tryunfo-game/triunfo-game/static/media/alisson.46e21f4b3ef90b110d63.png",
-    "static/media/raphinha.png": "/tryunfo-game/triunfo-game/static/media/raphinha.8f20bb2147e9d8c74a3e.png",
-    "static/media/thiago.png": "/tryunfo-game/triunfo-game/static/media/thiago.cec90af7ae4993e8d9ac.png",
-    "static/media/marquinhos.png": "/tryunfo-game/triunfo-game/static/media/marquinhos.c9452a0b14809855ac25.png",
-    "index.html": "/tryunfo-game/triunfo-game/index.html",
-    "main.53e89612.css.map": "/tryunfo-game/triunfo-game/static/css/main.53e89612.css.map",
-    "main.3c3f4337.js.map": "/tryunfo-game/triunfo-game/static/js/main.3c3f4337.js.map"
+    "main.css": "/tryunfo-game/static/css/main.351e6724.css",
+    "main.js": "/tryunfo-game/static/js/main.05128b36.js",
+    "static/media/pombo.png": "/tryunfo-game/static/media/pombo.7d02898d4c4a70901354.png",
+    "static/media/paqueta.png": "/tryunfo-game/static/media/paqueta.c78330c993f07c188119.png",
+    "static/media/vinicius.png": "/tryunfo-game/static/media/vinicius.cc72da37b9313656a452.png",
+    "static/media/neymar.png": "/tryunfo-game/static/media/neymar.49b40a90876ba91b5c90.png",
+    "static/media/logo-selecao.png": "/tryunfo-game/static/media/logo-selecao.45da747c9d8440674776.png",
+    "static/media/casemiro.png": "/tryunfo-game/static/media/casemiro.369aa04a1705addea96a.png",
+    "static/media/antony.png": "/tryunfo-game/static/media/antony.02200834af3270fbdcb8.png",
+    "static/media/alisson.png": "/tryunfo-game/static/media/alisson.46e21f4b3ef90b110d63.png",
+    "static/media/raphinha.png": "/tryunfo-game/static/media/raphinha.8f20bb2147e9d8c74a3e.png",
+    "static/media/thiago.png": "/tryunfo-game/static/media/thiago.cec90af7ae4993e8d9ac.png",
+    "static/media/marquinhos.png": "/tryunfo-game/static/media/marquinhos.c9452a0b14809855ac25.png",
+    "index.html": "/tryunfo-game/index.html",
+    "main.351e6724.css.map": "/tryunfo-game/static/css/main.351e6724.css.map",
+    "main.05128b36.js.map": "/tryunfo-game/static/js/main.05128b36.js.map"
   },
   "entrypoints": [
-    "static/css/main.53e89612.css",
-    "static/js/main.3c3f4337.js"
+    "static/css/main.351e6724.css",
+    "static/js/main.05128b36.js"
   ]
 }
